@@ -5,7 +5,7 @@
 template <typename T>
 class MaxHeap{
   private:
-  std::vector<int> vect; // vector to store heap elements
+  std::vector<T> vect; // vector to store heap elements
   
   int parent(int i){ // return index of parent at vect[i]
     return (i - 1) / 2;
